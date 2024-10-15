@@ -32,11 +32,11 @@ Once the PR is approved, it can be merged into the main branch. This can be done
 6. Regularly Pull Changes:
 Team members should frequently pull the latest changes from the main branch into their working branch to stay up-to-date.
 
-_git checkout main
-git pull origin main
-git checkout feature/your-feature-name
-git merge main
-_
+_git checkout main_
+_git pull origin main_
+_git checkout feature/your-feature-name_
+_git merge main_
+
 
 7. Commit Often:
 Make small, frequent commits to help facilitate easier merges.
@@ -53,10 +53,10 @@ git commit -m "Resolved merge conflicts"_
 
 9. Branch Naming Conventions
 Use clear naming conventions for branches:
-_
-feature/your-feature-name
-bugfix/your-bugfix-name
-hotfix/urgent-fix_
+
+_feature/your-feature-name_
+_bugfix/your-bugfix-name_
+_hotfix/urgent-fix_
 
 
 
