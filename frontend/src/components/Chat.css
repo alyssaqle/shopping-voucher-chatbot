@@ -1,0 +1,38 @@
+/* src/components/Chat.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.message {
+  padding: 10px;
+  margin: 5px;
+}
+
+.user {
+  background-color: #e0f7fa;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.assistant {
+  background-color: #fff;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+}
